@@ -1,0 +1,18 @@
+{
+  "name": "poker-equity-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "phe": "^0.6.0",
+    "typings": "^2.1.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "start": "node --loader ts-node/esm index.ts"
+  }
+}
